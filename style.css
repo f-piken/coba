@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 750px;
+    background-color: #B0A695;
+}
+header{
+    width: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+}
+h1{
+    margin: 0px 0px 0px 200px;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#menu-btn{
+    position: relative;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+}
+#btn{
+    display: none;
+}
+#permen,#menu-btn:after,#menu-btn:before{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color:#D8D9DA;
+}
+#menu-btn:after,#menu-btn:before{
+    content: "";
+}
+#menu-btn:before{
+    top: 0px;
+}
+#menu-btn:after{
+    top: 8px;
+}
+#permen{
+    top: 16px;
+}
+#pera{
+    width: 100%;
+    background-color: #B0A695;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.peru{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+nav ul{
+    margin: 0px 170px 0px 0px;
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 17px 20px;
+}
+nav ul li a{
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+nav ul li a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+.orang{
+    display: none;
+}
+.login{
+    height: 20px;
+    margin: 12px;
+    margin-left: 130px;
+    padding: 6px 20px;
+    background-color: #776B5D;
+    border-radius: 50px;
+}
+.login:hover{
+    background-color: #733C3C;
+}
+.login a:hover{
+    font-size:medium;
+    font-weight: normal;
+    /* text-decoration:underline #fff; */
+}
+.satu{
+    align-items: center;
+    margin: 230px 0px 0px 0px;
+    color: #fff;
+}
+.satu1{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+}
+.foto{
+    z-index: 1;
+    background-color:#fff ;
+    margin: -75px 0px 0px 70px;
+    filter: grayscale(70%);
+    /* border-radius: 180px 180px 0px 0px; */
+    float: right;
+    height: 400px;
+    width: 550px;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: Open sans-serif;
+    font-weight: bold;
+}
+.nama{
+    padding: 4px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: inline;
+    border-radius: 10px;
+    background-color: #776B5D;
+}
+p{
+    margin-top: 10px;
+    font-family: Roboto;
+}
+.bawah{
+    background-color: #313131;
+    margin-bottom: 0px;
+}
+footer{
+    display: flex;
+    padding: 10px 0px;
+    margin: 0px 150px 0px 0px;
+    justify-content: center;
+}
+.garis{
+    margin-top: 0px;
+    /* background-color: #424345; */
+    padding: 0px 0px 20px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.garis2{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 5px;
+    height: 200px;
+    margin: 0px 0px 0px 200px;
+}
+.kal1{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    float: left;
+    margin: 20px 0px 0px 0px;
+}
+.kal2{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin: 20px 0px 0px 30px;
+}
+.judul2{
+    margin: 130px 0px -40px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 75px;
+}
+.satu2{
+    display: inline-block;
+    width: 100%;
+    height: 497px;
+    box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 20px 50px; */
+    margin-top: 50px;
+    background-image: url('asset/11473.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.satu .konten{
+    width: 100%;
+    /* display: flex; */
+    margin-left: -10px;
+}
+.satu2 .konten .pohon{
+    display: flex;
+    justify-content: center;
+}
+.satu2 .konten .tiga{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 70px 0px 30px 30px;
+    width: 240px;
+    height: 330px;
+    border-radius: 18px;
+    text-align: center;
+}
+.satu2 .konten .batang{
+    display: flex;
+    justify-content: center;
+}
+.satu2 .konten .empat{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 30px 0px 30px 30px;
+    width: 110px;
+    height: 130px;
+    border-radius: 18px;
+    text-align: center;
+}
+.satu2 .konten div img{
+    width: 210px;
+    height: 270px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.satu2 p{
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.satu3{
+    height: 350px;
+    margin-top: 0px;
+}
+.satu3 div{
+    justify-content: center;
+    padding-top: 35px;
+}
+.satu3 h1{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    margin: 0px;
+}
+.satu3 p{
+    text-align: center;
+    margin: 0px 260px;
+}
+.satu4{
+    display: flex;
+}
+.satu4 .lima{
+    text-align: center;
+    margin-top: 230px;
+    float: right;
+}
+.satu4 h1{
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px 0px 0px 20px;
+}
+.satu4 p{
+    margin: 0px 50px;
+}
+.pikiku{
+    background-color: #ffffff;
+    width: 1000px;
+    height: 650px;
+    filter: grayscale(90%);
+}
+
+.satu5{
+    background-color: #776B5D;
+    display: flex;
+}
+.satu5 .nam{
+    text-align: center;
+    margin-top: 230px;
+    float: right;
+}
+.satu5 h1{
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px 0px 0px 20px;
+}
+.satu5 p{
+    margin: 0px 50px;
+}
+.pikisyu{
+    margin: 20px 35px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 550px;
+    filter: grayscale(90%);
+}
+@media(max-width:1000px){
+    h1{
+        margin: 0px 0px 0px 85px;
+    }
+    .login{
+        margin-left: 0px;
+        padding: 10px 0px;
+        background-color: #176B87;
+        border-radius: 20px;
+    }
+    nav ul{
+        margin: -21px;
+        display: block;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    nav ul li{
+        padding: 10px 0px;
+        width: 100%;
+        display: block;
+    }
+    .satu{
+        align-items: center;
+        margin: 75px 0px 0px 0px;
+        color: #fff;
+    }
+    .satu1{
+        margin: 0px 0px 0px 30px;
+    }
+
+    #soto{
+        width: 32px;
+        margin: 15px 10px 0px 10px;
+        display: inline-block;
+        position:absolute;
+        right: 6px;
+    }
+    .orang label{
+        font-family: sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .orang #makan{
+        display: none;
+        cursor: pointer;
+    }
+    #peru{
+        display: none;
+    }
+    #peru.active{
+        width: 35%;
+        height: 1000px;
+        text-align: center;
+        display: inline;
+        background: rgba(61, 62, 66, 0.9);
+        position: absolute;
+        top: 75.6px;
+    }
+    .foto{
+        float:none;
+        margin: 50px 70px 0px;
+    }
+    .satu2 .konten .apa{
+        text-decoration: none;
+        background-color: #fff;
+        margin: 10px 0px 10px 30px;
+        width: 0px;
+        height: 0px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .satu2{
+        display: inline-block;
+        box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.2);
+        padding: 20px 52px;
+        margin-top: 100px;
+        background-image: url('asset/11473.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .satu .konten{
+        width: 100%;
+        display: flex;
+    }
+}
